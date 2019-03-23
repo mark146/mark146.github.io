@@ -96,3 +96,4 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 "# mark146.github.io" 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9674184c-30b0-4007-a22e-7ae1b477b33a/deploy-status)](https://app.netlify.com/sites/mark146/deploys)
