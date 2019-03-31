@@ -21,23 +21,23 @@ _ _ _
   - openssl 다운로드: https://www.openssl.org/source/
   - openjdk 다운로드: https://github.com/ojdkbuild/ojdkbuild
 
-  ![config1.PNG](.\config1.PNG)
+  ![config1.PNG](./config1.PNG)
 
 2. 자바 설치 및 실행
 
   - 리눅스 설치시 자동으로 설치되는 자바를 사용하지 않고 다르게 사용할 경우 진행
 
-  ![config2.PNG](.\config2.PNG)
+  ![config2.PNG](./config2.PNG)
 
-  ![config3.PNG](.\config3.PNG)
+  ![config3.PNG](./config3.PNG)
 
 3. 톰캣 설치 및 실행
 
   ``` $ tar zxvf apache-tomcat-7.0.93.tar.gz ```
-  ![config4.PNG](.\config4.PNG)
+  ![config4.PNG](./config4.PNG)
 
   ```$ ./startup.sh``` 실행
-  ![config5.PNG](.\config5.PNG)
+  ![config5.PNG](./config5.PNG)
 
 4. APR 설치
 
@@ -81,9 +81,9 @@ _ _ _
 5. APR 설정 적용 및 로그 확인
 
   - catalina.sh나 setenv.sh 파일에 ` -Djava.library.path=/sb/apache-tomcat-7.0.93/lib` 추가
-    ![config6.PNG](.\config6.PNG)
+    ![config6.PNG](./config6.PNG)
   - 로그 확인
-    ![config7.PNG](.\config7.PNG)
+    ![config7.PNG](./config7.PNG)
 
   - 3번 항목에 있는 Tomcat 로그와 비교를 해보면 APR 설정이 적용되었는지 알수 있습니다.
 
