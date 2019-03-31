@@ -46,43 +46,43 @@ _ _ _
    apr-1.6.5.tar.gz 설치
 
   ```
-		$ mkdir apr
- 		$ tar zxvf apr-1.6.5.tar.gz
- 		$ cd apr
- 		$ ./configure --prefix=/test/apr
- 		$ make && make install
+	$ mkdir apr
+ 	$ tar zxvf apr-1.6.5.tar.gz
+ 	$ cd apr
+ 	$ ./configure --prefix=/test/apr
+ 	$ make && make install
  		
   ```
 ​	apr-util-1.6.1.tar.gz 설치
 
   ```
-		$ mkdir apr-util
-		$ tar zxvf apr-util-1.6.1.tar.gz
- 		$ cd apr-util-1.6.1
-  		$ ./configure --prefix=/test/apr-util --with-apr=/test/apr/bin/apr-1-config
-  		$ make && make install
+	$ mkdir apr-util
+	$ tar zxvf apr-util-1.6.1.tar.gz
+ 	$ cd apr-util-1.6.1
+  	$ ./configure --prefix=/test/apr-util --with-apr=/test/apr/bin/apr-1-config
+  	$ make && make install
   ```
 ​	openssl-1.1.1b.tar.gz 설치
 
   ```
-  		$ mkdir openssl
-  		$ tar zxvf openssl-1.1.1b.tar.gz
-  		$ cd openssl
-  		$ ./config --prefix=/test/openssl
-  		$ make && make install
+  	$ mkdir openssl
+  	$ tar zxvf openssl-1.1.1b.tar.gz
+  	$ cd openssl
+  	$ ./config --prefix=/test/openssl
+  	$ make && make install
   ```
 ​	tomcat-native-1.2.21-src.tar.gz 설치
 
   ```
-  		$ cp tomcat-native-1.2.21-src.tar.gz /test/apache-tomcat-7.0.93/bin/
-  		$ tar zxvf tomcat-native-1.2.21-src.tar.gz
-  		$ cd tomcat-native-1.2.21-src/native/
-  		$ ./configure \
-  		--with-java-home=/test/jdk-8u202-ojdkbuild-linux-x64 \
-  		--with-apr=/test/apr/bin/apr-1-config \
-  		--with-ssl=/test/openssl \
-  		--prefix=/test/apache-tomcat-7.0.93
-  		$ make && make install
+  	$ cp tomcat-native-1.2.21-src.tar.gz /test/apache-tomcat-7.0.93/bin/
+  	$ tar zxvf tomcat-native-1.2.21-src.tar.gz
+  	$ cd tomcat-native-1.2.21-src/native/
+  	$ ./configure \
+  	--with-java-home=/test/jdk-8u202-ojdkbuild-linux-x64 \
+  	--with-apr=/test/apr/bin/apr-1-config \
+  	--with-ssl=/test/openssl \
+  	--prefix=/test/apache-tomcat-7.0.93
+  	$ make && make install
   ```
 
 5. APR 설정 적용 및 로그 확인
